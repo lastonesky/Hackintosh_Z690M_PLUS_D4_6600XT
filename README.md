@@ -12,4 +12,6 @@ VGA: Asrock RX6600XT 8G
 
 BT/WIFI:  Intel AX200
 
+Wifi Driver need youself download from [https://github.com/OpenIntelWireless/itlwm/releases/tag/v2.1.0#]
+itwlm can directly use, airportltlwm need add kext to config
 
