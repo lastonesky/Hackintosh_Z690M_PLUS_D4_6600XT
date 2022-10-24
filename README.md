@@ -15,3 +15,11 @@ BT/WIFI:  Intel AX200
 Wifi Driver need youself download from [https://github.com/OpenIntelWireless/itlwm/releases/tag/v2.1.0#]
 itwlm can directly use, airportltlwm need add kext to config
 
+What works:
+Wifi,Audio,Ethernet,RX6600XT,Sleep,E-Core,BlueTooth
+
+What doesn't works:
+
+IGPU,RGB Controller,Thunderbold
+
+PS:If EFI is not first item In OpenCore Menu, Please select lastest item "Reset System", Reboot, then Select Mac(or Mac Installation)
