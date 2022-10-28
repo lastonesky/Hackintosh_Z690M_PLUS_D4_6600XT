@@ -22,4 +22,9 @@ What doesn't works:
 
 IGPU,RGB Controller,Thunderbolt
 
+BIOS Version 2014
+to unlock CFG_Lock,in oc menu ,choose mod Grub Shell,then input following text(only in Version 2014 BIOS):
+setup_var_cv CpuSetup 0x44 0x01 0x00
+
 PS:If EFI is not first item In OpenCore Menu, Please select lastest item "Reset System", Reboot, then Select Mac(or Mac Installation)
+
