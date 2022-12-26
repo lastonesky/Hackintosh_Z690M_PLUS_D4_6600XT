@@ -6,7 +6,7 @@ Configuration:
 
 CPU: Intel I5 12600KF
 
-MB:Asus Z690M PLUS D4
+MB:Asus Z690M PLUS D4 or Maxsun Terminator B660M
 
 VGA: Asrock RX6600XT 8G
 
