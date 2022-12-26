@@ -31,6 +31,7 @@ PS:If EFI is not first item In OpenCore Menu, Please select lastest item "Reset 
 Maxsun_B660 Folder contains a USB Mapping Kext File,If Using Maxsun Terminator B660M，Can use this file to overwrite EFI\Kext\UTBMap.kext
 
 Chinese:
+
 只支持Monterey版本的MacOS，不支持Mac OS 13（目前不稳定，尤其是WIFI部分）
 同时支持华硕Z690M PLUS D4主板和 铭瑄 终结者 B660M主板。但是铭瑄主板需要复制一下Maxsun_B660文件夹里的文件到EFI\Kext文件夹里。
 BIOS的CFG_Lock不解锁就可以，解锁也没什么影响。已经在config.plist中启用了cfg_lock相关的配置。
