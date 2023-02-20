@@ -23,8 +23,6 @@ What doesn't works:
 IGPU,RGB Controller,Thunderbolt
 
 BIOS Version 2014
-to unlock CFG_Lock,in oc menu ,choose mod Grub Shell,then input following text(only in Version 2014 BIOS):
-setup_var_cv CpuSetup 0x44 0x01 0x00
 
 PS:If EFI is not first item In OpenCore Menu, Please select lastest item "Reset System", Reboot, then Select Mac(or Mac Installation)
 
@@ -37,3 +35,12 @@ Chinese:
 BIOS的CFG_Lock不解锁就可以，解锁也没什么影响。已经在config.plist中启用了cfg_lock相关的配置。
 
 注意：如果使用华硕主板，在看到启动菜单时，需要注意一下第一个启动项名称是否为EFI，如果不是，直接选择后面的Reset System重启电脑，否则进不去MacOS，会一直黑屏。铭瑄B660M没有这个问题
+
+Credits:
+  OpenCorePkg
+  AppleALC
+  VirtualSMC
+  Lilu
+  OpenIntelWireless
+  and 
+  
