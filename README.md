@@ -36,11 +36,11 @@ BIOS的CFG_Lock不解锁就可以，解锁也没什么影响。已经在config.p
 
 注意：如果使用华硕主板，在看到启动菜单时，需要注意一下第一个启动项名称是否为EFI，如果不是，直接选择后面的Reset System重启电脑，否则进不去MacOS，会一直黑屏。铭瑄B660M没有这个问题
 
-Credits:
-  OpenCorePkg
-  AppleALC
-  VirtualSMC
-  Lilu
-  OpenIntelWireless
+Credits:  
+  OpenCorePkg  
+  AppleALC  
+  VirtualSMC  
+  Lilu  
+  OpenIntelWireless  
   and 
   
