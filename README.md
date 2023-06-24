@@ -1,6 +1,6 @@
 # Hackintosh_Z690M_PLUS_D4_6600XT  
 
-OpenCore Version: 0.9.1  
+OpenCore Version: 0.9.3  
 Support MacOS Version 12.5-13  
 Asus Z690M PLUS D4, 12600KF, RX6600XT  
 
@@ -39,10 +39,10 @@ BIOS的CFG_Lock不解锁就可以，解锁也没什么影响。已经在config.p
 注意：如果使用华硕主板，在看到启动菜单时，需要注意一下第一个启动项名称是否为EFI，如果不是，直接选择后面的Reset System重启电脑，否则进不去MacOS，会一直黑屏。铭瑄B660M没有这个问题
 
 Credits:  
-  OpenCorePkg  
-  AppleALC  
-  VirtualSMC  
-  Lilu  
-  OpenIntelWireless  
+  [OpenCorePkg](https://github.com/acidanthera/OpenCorePkg)  
+  [AppleALC](https://github.com/acidanthera/AppleALC)  
+  [VirtualSMC](https://github.com/acidanthera/VirtualSMC)  
+  [Lilu](https://github.com/acidanthera/Lilu)  
+  [OpenIntelWireless](https://github.com/OpenIntelWireless/)  
   and 
   
